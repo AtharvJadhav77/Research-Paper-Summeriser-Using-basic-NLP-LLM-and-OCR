@@ -1,0 +1,21 @@
+# Environments
+.env
+nlp_prjct1/
+venv/
+env/
+.venv/
+
+# Caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Data Outputs & Uploads
+data/images/
+data/outputs/
+*.pdf
+
+# OS generated files
+.DS_Store
+Thumbs.db

@@ -1,0 +1,37 @@
+ai-paper-simplifier/
+│
+├── app/                        # Main backend logic
+│   ├── __init__.py
+│   ├── main.py                # Entry point (FastAPI / Streamlit)
+│
+│   ├── extraction/
+│   │   └── pdf_extractor.py   # Extract text from PDF
+│
+│   ├── processing/
+│   │   ├── chunking.py        # Text splitting / semantic chunking
+│   │   └── preprocessing.py   # Cleaning text
+│
+│   ├── prompts/
+│   │   └── templates.py       # Beginner / Intermediate / Expert prompts
+│
+│   ├── llm/
+│   │   └── generator.py       # LLM API calls (OpenAI / HF)
+│
+│   ├── pipeline/
+│   │   └── pipeline.py        # Full workflow logic
+│
+│   └── utils/
+│       └── helpers.py
+│
+├── frontend/
+│   └── streamlit_app.py       # UI (Streamlit)
+│
+├── data/
+│   ├── input/                 # Uploaded PDFs
+│   └── output/                # Generated results
+│
+├── config/
+│   └── settings.py            # API keys, configs
+│
+├── requirements.txt
+└── README.md
