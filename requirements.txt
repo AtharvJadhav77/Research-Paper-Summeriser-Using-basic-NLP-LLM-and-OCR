@@ -1,0 +1,6 @@
+streamlit
+groq
+pymupdf
+pytesseract
+pillow
+python-dotenv
